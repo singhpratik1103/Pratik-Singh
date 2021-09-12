@@ -1,0 +1,220 @@
+#title {
+    background-color: rgba(0, 0, 0, 0.938);
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+h3 {
+    font-family: "Poppins-Black";
+}
+
+p {
+    font-family: "Poppins-Black";
+}
+
+/*Navigation Bar*/
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Poppins-Light";
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.lio {
+    color: rgb(206, 58, 102);
+}
+
+/* Title */
+
+.Intro {
+    color: #fff;
+    padding-top: 15%;
+    font-family: "Poppins-Black";
+    margin-left: 10%;
+}
+
+.name {
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-left: 10%;
+}
+
+.salutation-name {
+    color: #fff;
+    font-family: "Poppins-Black";
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-left: 10%;
+    padding-bottom: 90px;
+}
+
+.knowMore-button {
+    position: relative;
+    bottom: 25px;
+    margin: 0 0 5% 10%;
+}
+
+.title-image {
+    height: 90;
+    width: 70%;
+    position: relative;
+    right: -50px;
+    border-radius: 50% 0 0 50%;
+}
+
+/* About Section */
+
+#About {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.about-head {
+    font-family: "Ubuntu",sans-serif;
+    padding: 2%;
+    font-size: 2.5rem;
+}
+
+.about-body {
+    font-family: "Poppins-black";
+    font-size: 1.5rem;
+}
+
+.about-icon {
+    color: rgb(206, 58, 102)
+}
+
+/* Skills */
+
+#Skills {
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.skills-Heading {
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 8%;
+}
+
+/* Resume Section */
+
+#Resume {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.resume-heading {
+    font-size: 3rem;
+    padding: 3%;
+    color: rgb(206, 58, 102);
+    font-weight: bolder;
+}
+
+.resume-body {
+    font-size: 1.8rem;
+    padding-bottom: 4%;
+}
+
+.btn {
+    background: #ce3a67;
+    background-image: -webkit-linear-gradient(top, #ce3a67, #c70e0e);
+    background-image: -moz-linear-gradient(top, #ce3a67, #c70e0e);
+    background-image: -ms-linear-gradient(top, #ce3a67, #c70e0e);
+    background-image: -o-linear-gradient(top, #ce3a67, #c70e0e);
+    background-image: linear-gradient(to bottom, #ce3a67, #c70e0e);
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    border-radius: 100px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 5px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fa3c3c;
+    background-image: -webkit-linear-gradient(top, #fa3c3c, #d94d34);
+    background-image: -moz-linear-gradient(top, #fa3c3c, #d94d34);
+    background-image: -ms-linear-gradient(top, #fa3c3c, #d94d34);
+    background-image: -o-linear-gradient(top, #fa3c3c, #d94d34);
+    background-image: linear-gradient(to bottom, #fa3c3c, #d94d34);
+    text-decoration: none;
+  }
+
+  /* Contact Me Section */
+  #Contact {
+    background-color: rgba(0, 0, 0, 0.938);
+    color: #fff;
+    padding: 7% 15%;
+  }
+
+.contact-head {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 4%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(206, 58, 102);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(206, 58, 58);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.cntct {
+    color: black;
+}
+
+/*Footer*/
+
+#footer {
+    text-align: center;
+    padding: 5% 15%;
+}
